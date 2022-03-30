@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {    width: 100vw;height: 100vh;}
+
+*{
+    font-family: 'LeeSeoyun';
+}
+
+
+body {
+    background-image: url("시작화면.png");
+    background-size : 100% 100%;
+    background-repeat : no-repeat;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+.container{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.start{
+    margin-top: 25vh;
+    text-align: center;
+}
+.titlembti{
+    font-size: 10vmin;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #aaa9a8;
+}
+#btn {
+    text-align: center;
+}
+
+#startbutton{
+    margin-top: 10vh;
+    background: #4BBCF4;
+    box-shadow: 0.5vmin 0.5vmin 0.5vmin 0.5vmin #6D84B1;
+    border-radius: 4vmin;
+    width: 20vmin; 
+    color: #EDFFC0;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 2% 2%;
+    font-size: 1rem;
+}
+
+
+.question{
+    display: none;
+    text-align: center;
+    padding-left: 2%;
+    padding-right:2%;
+}
+
+.result{
+    display: none;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+#A {
+    margin-top: 10px;
+    color:rgb(104, 179, 189);
+    background-color: #fcfbdf;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+    height: 8vh;
+    overflow: auto;
+    
+}
+
+#A:hover{color:white;background-color:rgb(104, 179, 189);}
+
+#B{
+    color:rgb(104, 179, 189);
+    background-color: #fcfbdf;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+    height: 8vh;
+    overflow: auto;
+}
+
+#B:hover{color:white;background-color:rgb(104, 179, 189);}
+
+#sang{
+    font-size: 4vmin;
+    left:50%;
+    transform: translate(-50%, 100%);
+    position: absolute;
+}
+#img_and_title{
+    padding: 0;
+    margin: 0;
+}
+#logo_img{
+    width: 6%;height: 6%;
+    padding: 0;
+    margin-bottom: 3vh;
+    padding: 0;
+    margin: 0;
+}
+#nyang_img {
+    width: 20%;height: 20%;
+    padding: 0;
+    margin-top: 6vh;
+}
+
+#img{
+    height: 100vh;
+    width: auto;
+    padding: 0;
+}
+
+#animal{
+    left:50%;top:50%;
+    transform: translate(-50%, -150%);
+    position: absolute;
+}
+
+#subtitle{
+    left:50%;top:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#explain{
+    font-size: 1rem;
+    left:50%;top:65%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    width: 50%;
+}
+
+.top_img img{
+    width: 50%;
+    text-align: center;
+    margin-left: 0;
+}
+
+.result_link {
+    transform: translate(3%, 900%);
+    position: absolute;
+    flex-direction: column; /*세로로 정렬*/
+    text-align: left;
+    bottom:2%;
+    transform: translate(3%,0%);
+}
+
+.result_link a {
+    color: inherit; /* 링크의 색상 제거 */
+    font-size: 2.5vmin;
+    display: inline-block;
+}
+
+.result_link img {width: 5%;height: 5%;}
+
+article {
+    display:flex; /*정렬*/
+    flex-direction: column; /*세로로 정렬*/
+    text-align: center;
+    margin: 0 auto;
+}
+#retrybutton{
+    margin-bottom: 0;
+    background: transparent;
+    color: black;
+    text-decoration: underline;
+    border: 0;
+    padding: 2% 2%;
+    width: 30vmin; 
+    font-size: 1rem;    
+    display: inline-block;
+    margin-left: 12%;
+}
+
+.link-icon { 
+    position: relative; 
+    display: inline-block; 
+
+}
+.link-icon.twitter { 
+    background-image: url(icon-twitter.png); 
+    background-repeat: no-repeat; 
+    text-decoration: none; 
+    padding: 0%;
+    margin-left: 9.5vw;
+    margin-right: -1.5vw;
+}
+.link-icon.facebook { 
+
+    background-image: url(icon-facebook.png); 
+    background-repeat: no-repeat; 
+    text-decoration: none;
+    padding: 0%;
+    margin-right: -1.5vw;
+} 
+.link-icon.naver {
+    background-image: url(icon-naver.png); 
+    background-repeat: no-repeat; 
+    text-decoration: none;
+    padding: 0%;
+} 
